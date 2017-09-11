@@ -1,0 +1,148 @@
+.gr-row {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+
+.gr-row-align-center {
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+
+[class*=no-gutter]>.gr-row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.gr-no-gutter {
+    padding: 0 !important;
+}
+
+.gr-no-gutter-right {
+    padding-right: 0;
+}
+
+.gr-0, .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6, .gr-7, .gr-8, .gr-9, .gr-10, .gr-11, .gr-12 {
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.gr-5 {
+    -ms-flex-preferred-size: 41.6666666667%;
+    -webkit-flex-basis: 41.6666666667%;
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.gr-7 {
+    -ms-flex-preferred-size: 58.3333333333%;
+    -webkit-flex-basis: 58.3333333333%;
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+}
+
+.gr-12 {
+    -ms-flex-preferred-size: 100%;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.gr-centered {
+    display: block!important;
+    clear: both!important;
+    margin: 5px 0;
+}
+
+.gr-padding-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gr-padding-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signup-box {
+    border-radius: 3px;
+}
+
+#frm_verify_email input {
+    width: 100%;
+    height: 45px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+    font-size: .8695652174rem;
+}
+
+#frm_verify_email button {
+    height: 45px;
+    width: 100%;
+}
+
+#frm_verify_email button:focus {
+    outline: none;
+}
+
+#btn_wrapper {
+    padding-left: 5px;
+}
+
+.error-field {
+    border-color: #c03 !important;
+    color: #c03;
+}
+
+.error-field:focus {
+    outline-color: #c03;
+}
+
+#success {
+    height: 65px;
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .gr-8-m {
+        -ms-flex-preferred-size: 66.6666666667%;
+        -webkit-flex-basis: 66.6666666667%;
+        flex-basis: 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+    .gr-10-m {
+        -ms-flex-preferred-size: 83.3333333333%;
+        -webkit-flex-basis: 83.3333333333%;
+        flex-basis: 83.3333333333%;
+        max-width: 83.3333333333%;
+    }
+}
