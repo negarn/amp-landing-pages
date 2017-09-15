@@ -1,0 +1,13 @@
+.text-flex {
+  display: flex;
+}
+
+.main-content {
+  background-image: url('../img/header-bg.png');
+  background-size: cover;
+}
+
+.feature-box {
+  text-align: center;
+  margin-top: 30px;
+}

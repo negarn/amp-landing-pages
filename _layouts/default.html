@@ -1,14 +1,21 @@
 <!doctype html>
 <html amp lang="{{ site.lang | default: page.lang | default: 'en' }}">
-
   {% include head.html %}
-
   <body>
-
-    <main class="main" aria-label="Content">
-      {{ content }}
-    </main>
-
+    <div class = "main-content">
+        <div class = "container">
+            {% include header.html %}
+        </div>
+        <main class="main" aria-label="Content">
+          {{ content }}
+        </main>
+        <div class = "container">
+            {% include hero_section.html %}
+        </div>
+    </div>
+    <div class = "container payment-container">
+        {% include payment_methods.html %}
+    </div>
+      {% include footer.html %}
   </body>
-
 </html>
