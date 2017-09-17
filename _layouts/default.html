@@ -5,17 +5,21 @@
     <div class = "main-content">
         <div class = "container">
             {% include header.html %}
+            <main class="main" aria-label="Content">
+              {{ content }}
+            </main>
         </div>
-        <main class="main" aria-label="Content">
-          {{ content }}
-        </main>
         <div class = "container">
             {% include hero_section.html %}
         </div>
     </div>
-    <div class = "container payment-container">
+    <div class = "container">
         {% include payment_methods.html %}
     </div>
-      {% include footer.html %}
   </body>
+  <div class = "container-static footer">
+    <div class = "container">
+    {% include footer.html %}
+    <div>
+  </div>
 </html>
