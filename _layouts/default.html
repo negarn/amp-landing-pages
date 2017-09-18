@@ -3,23 +3,13 @@
   {% include head.html %}
   <body>
     <div class = "main-content">
-        <div class = "container">
-            {% include header.html %}
-            <main class="main" aria-label="Content">
-              {{ content }}
-            </main>
-        </div>
-        <div class = "container">
-            {% include hero_section.html %}
-        </div>
+        {% include header.html %}
+        <main class="main" aria-label="Content">
+          {{ content }}
+        </main>
+        {% include hero_section.html %}
     </div>
-    <div class = "container">
         {% include payment_methods.html %}
-    </div>
   </body>
-  <div class = "container-static footer">
-    <div class = "container">
     {% include footer.html %}
-    <div>
-  </div>
 </html>
