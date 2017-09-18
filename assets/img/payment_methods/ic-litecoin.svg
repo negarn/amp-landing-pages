@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="ic-litecoin">
+                <g id="96" fill="#D8D8D8" opacity="0">
+                    <rect id="Rectangle-4" x="0" y="0" width="96" height="96"></rect>
+                </g>
+                <g id="Group-2" transform="translate(8.000000, 38.000000)">
+                    <text id="Litecoin" font-family="Roboto-Light, Roboto" font-size="15.7377049" font-weight="300" line-spacing="13.1147541" fill-opacity="0.603487319" fill="#000000">
+                        <tspan x="24.9590164" y="18.9344262">Litecoin</tspan>
+                    </text>
+                    <g id="icons/currencies/ltc">
+                        <g id="ic-ltc">
+                            <path d="M10.4999075,0 C4.7009441,0 0,4.70103666 0,10.5000926 C0,16.2992411 4.7009441,21 10.4999075,21 C16.299056,21 21,16.2992411 21,10.5000926 C21.0000926,4.70103666 16.2991485,0 10.4999075,0 Z M14.5758053,15.6203259 L6.37162163,15.6203259 L7.06118106,12.3283969 L5.72038135,13.2477786 L6.04609405,11.4463162 L7.44844504,10.480933 L8.82404666,3.91493892 L11.3852277,3.91493892 L10.4381711,8.4234543 L13.7726769,6.1285635 L13.3818956,7.99518698 L10.0479452,10.2807294 L9.38837469,13.4212329 L15.0314698,13.4212329 L14.5758053,15.6203259 Z" id="LTC" fill="#C2C2C2" fill-rule="nonzero"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="21" height="21"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
